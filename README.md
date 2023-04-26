@@ -1,6 +1,6 @@
-# BigIntegerNumber-Java
+# BigNumber-Java
 
-A library for handle large numbers with beauty print.
+A library for handle large Integer numbers with beauty print.
 
 ## Setup
 
