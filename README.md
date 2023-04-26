@@ -26,6 +26,14 @@ dependencies {
 ```java
         BigNumber b1 = new BigNumber("1_000_000_000_000_000");
         BigNumber b2 = new BigNumber("99_999_000_009_789_000");
-        BigNumber res = b1.add(b2);
-        System.out.println(res);
+	
+        BigNumber addResult = b1.add(b2);
+        System.out.println(addResult);
+	
+	BigNumber subResult = b1.sub(b2);
+        System.out.println(subResult);
+	
+	BigNumber mulResult = b1.mul(b2);
+        System.out.println(mulResult);
+
 ```
